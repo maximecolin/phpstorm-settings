@@ -21,6 +21,7 @@ Code
 * <kbd>CMD</kbd>+<kbd>E</kbd> : Delete line
 * <kbd>CMD</kbd>+<kbd>ALT</kbd>+<kbd>L</kbd> : Format code
 * <kbd>CMD</kbd>+<kbd>N</kbd> : Code generation (getters, setters, override, docblocks, ...)
+* <kbd>CMD</kbd>+<kbd>P</kbd> : Display informations about method parameters
 
 Selection
 * <kbd>ALT</kbd>+<kbd>CLICK</kbd> : Multi cursor
