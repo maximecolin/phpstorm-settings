@@ -1,0 +1,6 @@
+<application>
+  <component name="Vue">
+    <option name="vueExePath" value="/usr/local/bin/vue" />
+    <option name="nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+</application>

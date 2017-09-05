@@ -1,0 +1,75 @@
+<templateSet group="PHP">
+  <template name="hdl" value="class $COMMAND$Handler&#10;{&#10;    /**&#10;     * $COMMAND$Handler constructor.&#10;     */&#10;    public function  __construct($END$)&#10;    {&#10;    }&#10;&#10;    /**&#10;     * @var $COMMAND$ $command&#10;     */&#10;    public function handle($COMMAND$ $command)&#10;    {&#10;    }&#10;}&#10;" description="Handler" toReformat="false" toShortenFQNames="true">
+    <variable name="COMMAND" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="hrq" value="if ($FORM$-&gt;handleRequest($request)-&gt;isSubmitted() &amp;&amp; $FORM$-&gt;isValid()) {&#10;&#10;    return $this-&gt;redirectToRoute('$ROUTE$', [$END$]);&#10;}" description="Handle request" toReformat="true" toShortenFQNames="true">
+    <variable name="FORM" expression="" defaultValue="$form" alwaysStopAt="true" />
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="form" value="$FORM$ = $this-&gt;createForm($TYPE$::class, $DATA$, [$END$]);" description="Create form" toReformat="false" toShortenFQNames="true">
+    <variable name="FORM" expression="" defaultValue="$form" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fhr" value="$FORM$ = $this-&gt;createForm($TYPE$::class, $DATA$, [$OPTIONS$]);&#10;&#10;if ($FORM$-&gt;handleRequest($request)-&gt;isSubmitted() &amp;&amp; $FORM$-&gt;isValid()) {&#10;&#10;    return $this-&gt;redirectToRoute('$ROUTE$', [$END$]);&#10;}" description="Form handle request" toReformat="false" toShortenFQNames="true">
+    <variable name="FORM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATA" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OPTIONS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="hc" value="$this-&gt;get('tactician.commandbus')-&gt;handle($COMMAND$);" description="Handle command" toReformat="false" toShortenFQNames="true">
+    <variable name="COMMAND" expression="" defaultValue="$command" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="action" value="public function $ACTION$Action()&#10;{&#10;    return $this-&gt;render('$TEMPLATE$', [$END$]);&#10;}" description="Action" toReformat="true" toShortenFQNames="true">
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEMPLATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="@i" value="/**&#10; * {@inheritdoc}&#10; */" description="inheritdoc" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vd" value="var_dump($END$);" description="var_dump" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vdd" value="var_dump($END$);die();" description="var_dump &amp; die" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ctl" value="&#10;use Symfony\Bundle\FrameworkBundle\Controller\Controller;&#10;use Symfony\Component\HttpFoundation\Request;&#10;use Symfony\Component\HttpFoundation\Response;&#10;&#10;class $NAME$Controller extends Controller&#10;{&#10;    /**&#10;     * @param Request $request&#10;     *&#10;     * @return Response&#10;     */&#10;    public function $ACTION$Action(Request $request)&#10;    {&#10;        $END$&#10;    &#10;        return $this-&gt;render('$TEMPLATE$');&#10;    }&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEMPLATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ct" value="public function __construct($END$)&#10;{&#10;}" description="__construct" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+    </context>
+  </template>
+</templateSet>
