@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
+      <mapping pattern="migrer-mots-de-passe-methode-encodage" type="Markdown" />
       <mapping pattern="_Files.js" type="PLAIN_TEXT" />
       <mapping pattern="tot" type="PLAIN_TEXT" />
       <mapping pattern="Dashboard" type="PLAIN_TEXT" />
