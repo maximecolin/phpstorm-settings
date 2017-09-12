@@ -6,10 +6,9 @@
       <mapping pattern="_Files.js" type="PLAIN_TEXT" />
       <mapping pattern="tot" type="PLAIN_TEXT" />
       <mapping pattern="Dashboard" type="PLAIN_TEXT" />
-      <mapping pattern="Makefile" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern="ForfaitRepositoryInterface.php" type="PLAIN_TEXT" />
       <mapping pattern="categorizer-model" type="PLAIN_TEXT" />
+      <mapping pattern="ForfaitRepositoryInterface.php" type="PLAIN_TEXT" />
       <mapping pattern="diffA" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
       <mapping pattern="diffB" type="PLAIN_TEXT" />
