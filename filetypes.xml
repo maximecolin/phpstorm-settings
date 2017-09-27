@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="migrer-mots-de-passe-methode-encodage" type="Markdown" />
       <mapping pattern="CollectionRepositoryInterface" type="PHP" />
+      <mapping pattern="DashboardAction" type="PHP" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
