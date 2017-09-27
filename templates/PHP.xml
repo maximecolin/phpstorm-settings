@@ -36,9 +36,8 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="action" value="public function $ACTION$Action()&#10;{&#10;    return $this-&gt;render('$TEMPLATE$', [$END$]);&#10;}" description="Action" toReformat="true" toShortenFQNames="true">
+  <template name="action" value="class $ACTION$Action&#10;{&#10;    public function __construct($END)&#10;    {&#10;&#10;    }&#10;&#10;    public function __invoke()&#10;    {&#10;&#10;    }&#10;}&#10;" description="Action" toReformat="true" toShortenFQNames="true">
     <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TEMPLATE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
