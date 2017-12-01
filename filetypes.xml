@@ -10,10 +10,10 @@
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
-      <mapping pattern="PhotoList" type="Vue" />
-      <mapping ext="vuef" type="Vue" />
       <mapping ext="rss" type="XML" />
       <mapping pattern="AddCollaboratorCommand" type="YAML" />
+      <mapping ext="vuef" type="Vue" />
+      <mapping pattern="PhotoList" type="Vue" />
     </extensionMap>
   </component>
 </application>
