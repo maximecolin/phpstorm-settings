@@ -8,6 +8,7 @@
       <mapping pattern="Vagrantfile" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
+      <mapping pattern=".env.test" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
