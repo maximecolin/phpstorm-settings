@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="migrer-mots-de-passe-methode-encodage" type="Markdown" />
       <mapping pattern="DashboardAction" type="PHP" />
+      <mapping pattern="TemplateSearchFilter" type="PHP" />
       <mapping pattern="CollectionRepositoryInterface" type="PHP" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
       <mapping pattern=".env.test" type="PLAIN_TEXT" />
