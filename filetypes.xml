@@ -17,7 +17,6 @@
       <mapping ext="gql" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
-      <mapping ext="graphql" type="PLAIN_TEXT" />
       <mapping ext="rss" type="XML" />
       <mapping pattern="AddCollaboratorCommand" type="YAML" />
       <mapping ext="vuef" type="Vue" />
