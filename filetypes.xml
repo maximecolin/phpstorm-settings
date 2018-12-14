@@ -7,7 +7,9 @@
       <mapping pattern="TemplateSearchFilter" type="PHP" />
       <mapping pattern="CollectionRepositoryInterface" type="PHP" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
+      <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
       <mapping pattern=".env.test" type="PLAIN_TEXT" />
+      <mapping pattern=".Jenkinsfile" type="PLAIN_TEXT" />
       <mapping pattern="Vagrantfile" type="PLAIN_TEXT" />
       <mapping pattern="patch-2" type="PLAIN_TEXT" />
       <mapping pattern="patch-1" type="PLAIN_TEXT" />
